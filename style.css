@@ -3,7 +3,7 @@
     src: url('./Trajan\ Bold.ttf')
   }
 
-body {
+html {
     background-image: url("./background.png");
     background-size: cover;
     background-position: center;
@@ -16,7 +16,12 @@ body {
 
 h1 {
 	text-align: center;
-    font-size: 50px;
+    font-size: 2.5em;
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 10px;
+
 }
 
 button {
@@ -24,18 +29,22 @@ button {
 	margin: auto;
 	font-size: 24px;
 	padding: 12px;
-	border-radius: 5px;
 	background-color: #A72714;
 	color: #fff;
 	border: none;
 }
 
+button:hover {
+	background-color: #C94B42;
+	cursor: pointer;
+}
+
 #timer {
-    border-radius: 10px;
 	text-align: center;
-	font-size: 70px;
-	margin-top: 50px;
-    color: #A72714;
+	font-size: 7em;
+	margin: 0 auto;
+	/* margin-top: 50px; */
+    color: #ffffff;
 }
 
 ul {
@@ -43,23 +52,38 @@ ul {
 	margin-top: 20px;
 	padding-left: 0;
 	list-style: none;
-    /* width: 400px; */
 }
 
 li {
-    /* width:min-content; */
-    /* left: 100px; */
-    text-align: center;
-	font-size: 3em;
+	margin: 0 auto;
+	width: 400px;
+	text-align: center;
+	font-size: 2.5em;
 	margin-bottom: 10px;
-	background-color: #333;
+	background-color: #A72714;
 	padding: 10px;
-	border-radius: 8px;
 }
 
 p {
-    text-align: center;
+    text-align: justify;
     font-size: 1.2em;
-    margin-top: 50px;
     padding: 10px;
+	line-height: 2em;
+}
+
+hr{
+	border: 1px solid #fff;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	opacity: 50%;
+}
+
+h4 {
+	text-align: center;
+	font-size: 01em;
+	margin: 0 auto;
+	/* margin-top: 50px; */
+	margin-bottom: 50px;
 }
